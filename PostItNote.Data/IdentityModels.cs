@@ -63,6 +63,4 @@ namespace PostItNote.Data
             HasKey(iur => iur.UserId);
         }
     }
-
-
 }
