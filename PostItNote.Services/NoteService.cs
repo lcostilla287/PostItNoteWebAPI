@@ -17,7 +17,7 @@ namespace PostItNote.Services
             _userId = userId;
         }
 
-        public bool CreatNote (NoteCreate model)
+        public bool CreateNote (NoteCreate model)
         {
             var entity =
                 new Note()

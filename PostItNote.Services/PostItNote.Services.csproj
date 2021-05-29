@@ -54,11 +54,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="NoteService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PostItNote.Data\PostItNote.Data.csproj">
+      <Project>{bca7869d-d874-4e7b-8725-7733ff8e5146}</Project>
+      <Name>PostItNote.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PostItNote.Models\PostItNote.Models.csproj">
+      <Project>{4613a5b4-ed12-42be-a812-8c565abdf034}</Project>
+      <Name>PostItNote.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
